@@ -7,7 +7,6 @@ function App() {
       <ImprovedButton
         click={() => {
           window.location = "https://www.facebook.com";
-          alert(`Goodbye`);
         }}
       >
         my fb
