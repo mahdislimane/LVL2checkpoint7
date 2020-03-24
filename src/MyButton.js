@@ -4,7 +4,7 @@ export default class ImprovedButton extends Component {
    componentDidMount() {
     setTimeout(function() {
       alert("hello");
-    }, 500);
+    }, 2000);
     window.addEventListener("beforeunload", ev => {
       ev.preventDefault();
       return (ev.returnValue = alert("Goodbye"));
